@@ -1,0 +1,7 @@
+{
+  "mj1": { "category": "player", "sounds": [ { "name": "moonwalkmod:mj1", "stream": true } ] },
+  "mj2": { "category": "player", "sounds": [ { "name": "moonwalkmod:mj2", "stream": true } ] },
+  "mj3": { "category": "player", "sounds": [ { "name": "moonwalkmod:mj3", "stream": true } ] },
+  "mj4": { "category": "player", "sounds": [ { "name": "moonwalkmod:mj4", "stream": true } ] },
+  "mj5": { "category": "player", "sounds": [ { "name": "moonwalkmod:mj5", "stream": true } ] }
+}
