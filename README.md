@@ -1,4 +1,4 @@
-# MoonWalk Mod (Minecraft 1.21.1)
+# MoonWalk Mod (Minecraft 1.21.11)
 
 A Minecraft mod with three features:
 1. Press **M** to "moonwalk": play a random Michael Jackson sound and gain a short Slow Falling effect.
@@ -16,17 +16,17 @@ You need:
 cd neoforge
 ./gradlew build
 ```
-Output: `neoforge/build/libs/moonwalkmod-neoforge-1.21.1-1.0.0.jar`
+Output: `neoforge/build/libs/moonwalkmod-neoforge-1.21.11-1.0.0.jar`
 
 ### Fabric
 ```
 cd fabric
 ./gradlew build
 ```
-Output: `fabric/build/libs/moonwalkmod-fabric-1.21.1-1.0.0.jar`
+Output: `fabric/build/libs/moonwalkmod-fabric-1.21.11-1.0.0.jar`
 
 ## Install
-Drop the built .jar into your `.minecraft/mods/` folder of a matching NeoForge or Fabric installation for Minecraft 1.21.1.
+Drop the built .jar into your `.minecraft/mods/` folder of a matching NeoForge or Fabric installation for Minecraft 1.21.11.
 Fabric also requires **Fabric API**.
 
 ## Add your MJ sounds
