@@ -21,6 +21,6 @@ side="BOTH"
 [[dependencies.moonwalkmod]]
 modId="minecraft"
 type="required"
-versionRange="[1.21.1]"
+versionRange="[1.21.11]"
 ordering="NONE"
 side="BOTH"
