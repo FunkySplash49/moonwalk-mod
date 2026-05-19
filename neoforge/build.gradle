@@ -6,7 +6,7 @@ plugins {
 group = 'com.moonwalk.mod'
 version = '1.0.0'
 
-base { archivesName = 'moonwalkmod-neoforge-1.21.1' }
+base { archivesName = 'moonwalkmod-neoforge-1.21.11' }
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 
