@@ -10,7 +10,7 @@ if [ ! -f "$WRAPPER_JAR" ]; then
   echo "Downloading gradle-wrapper.jar..."
   mkdir -p "$DIR/gradle/wrapper"
   curl -fsSL -o "$WRAPPER_JAR" \
-    "https://raw.githubusercontent.com/gradle/gradle/v8.10.0/gradle/wrapper/gradle-wrapper.jar"
+    "https://raw.githubusercontent.com/gradle/gradle/v9.4.0/gradle/wrapper/gradle-wrapper.jar"
 fi
 
 exec java -classpath "$WRAPPER_JAR" org.gradle.wrapper.GradleWrapperMain "$@"
