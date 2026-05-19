@@ -6,17 +6,17 @@ plugins {
 group = 'com.moonwalk.mod'
 version = '1.0.0'
 
-base { archivesName = 'moonwalkmod-fabric-1.21.1' }
+base { archivesName = 'moonwalkmod-fabric-1.21.11' }
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 
 repositories { mavenCentral() }
 
 dependencies {
-    minecraft "com.mojang:minecraft:1.21.1"
-    mappings "net.fabricmc:yarn:1.21.1+build.3:v2"
+    minecraft "com.mojang:minecraft:1.21.11"
+    mappings "net.fabricmc:yarn:1.21.11+build.3:v2"
     modImplementation "net.fabricmc:fabric-loader:0.16.0"
-    modImplementation "net.fabricmc.fabric-api:fabric-api:0.102.0+1.21.1"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:0.102.0+1.21.11"
 }
 
 tasks.withType(JavaCompile).configureEach {
